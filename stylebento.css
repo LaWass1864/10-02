@@ -200,7 +200,19 @@
 
         /* ====================================
            RESPONSIVE - TABLETTE (768px)
+           SI la largeur de l'écran fait au maximum 768 pixels, ALORS applique ce code CSS
            ==================================== */
+
+           body {
+    background-color: blue;
+}
+
+/* Si l'écran fait MAX 768px */
+@media (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
         @media (max-width: 768px) {
             /* Navigation */
             nav ul {
